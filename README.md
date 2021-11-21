@@ -7,7 +7,9 @@
 ## 🍀 Team
 
 👩🏻‍💻 [박용](https://github.com/dlstk8863) : Software, PM
+
 👨🏻‍💻 [송 휘](https://github.com/songhwee1) : Machine learning
+
 👨🏻‍💻 [고승우](https://github.com/rhuoo1234) : Raspberry Pi 
 
 <br/>  
