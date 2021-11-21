@@ -4,7 +4,7 @@
 
 <br/>
 
-## 🍀 Team :: 인하공전 컴퓨터정보과
+## 🍀 Team
 
 👩🏻‍💻 [박용](https://github.com/dlstk8863) : Software, PM
 👨🏻‍💻 [송 휘](https://github.com/songhwee1) : Machine learning
