@@ -130,6 +130,9 @@ while True:
         label = "Mask" if mask > withoutMask else "No Mask"
         color = (0, 255, 0) if label == "Mask" else (0, 0, 255)
         
+        if mask > withoutMask:
+                exec(open("motor.py").read())
+
         # 정확도
         label = "{}: {:.2f}%".format(label, max(mask, withoutMask) * 100)
 
