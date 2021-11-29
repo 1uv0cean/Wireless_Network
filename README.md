@@ -73,25 +73,41 @@ AutoCAD를 이용하여 라즈베리파이가 담길 케이스 및 기둥의 3d�
     sudo apt-get update && sudo apt-get upgrade   
     
 3. 필요한 모듈들을 설치해줍니다.
+
     #tensorflow 설치   
+    
     sudo pip3 install tensorflow   
     
     #imutils 설치   
+    
     sudo pip3 install imutils   
     
     #openCV설치를 위한 의존성 설치   
+    
     sudo apt-get install build-essential cmake git unzip pkg-config   
+    
     sudo apt-get install libjpeg-dev libpng-dev libtiff-dev   
+    
     sudo apt-get install libavcodec-dev libavformat-dev libswscale-dev   
+    
     sudo apt-get install libgtk2.0-dev libcanberra-gtk*   
+    
     sudo apt-get install libxvidcore-dev libx264-dev libgtk-3-dev   
+    
     sudo apt-get install python3-dev python3-numpy   
+    
     sudo apt-get install libtbb2 libtbb-dev libdc1394-22-dev   
+    
     sudo apt-get install libv4l-dev v4l-utils   
+    
     sudo apt-get install libjasper-dev libopenblas-dev libatlas-base-dev   
+    
     sudo apt-get install libblas-dev liblapack-dev gfortran   
+    
     sudo apt-get install gcc-arm*   
+    
     sudo apt-get install protobuf-compiler   
+    
     sudo apt-get install python-dev python-numpy   
     
     
