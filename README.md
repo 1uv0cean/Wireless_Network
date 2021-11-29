@@ -44,6 +44,8 @@ __딥러닝__ 을 통해 마스크 착용 및 미착용 모델을 학습시키�
 
 <img src="imgs/hwi.JPG" height="350" width="600"/>
 
+<img src="imgs/hwi2.JPG" height="400" width="600"/>
+
 <br/>
 
 ## 📟 Raspberry Pi
