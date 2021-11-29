@@ -34,7 +34,7 @@ __딥러닝__ 을 통해 마스크 착용 및 미착용 모델을 학습시키�
 ## ⚙ Deep Learning
 1. 얼굴 이미지에 랜드마크를 적용하여 눈썹, 눈, 코, 입 등을 분류해 낸 후 가상의 마스크 이미지를 씌워 제작된 마스크 착용 데이터셋과 마스크 미착용 데이터셋을 이용하였습니다.
 
-<img src="imgs/model1.jpg" height="250" width="400"/>   <img src="imgs/model2.jpg" height="250" width="400"/>
+<img src="imgs/model1.JPG" height="250" width="400"/>   <img src="imgs/model2.JPG" height="250" width="400"/>
 
 2. 연산량과 모델 사이즈를 줄여 빠르게 학습시키기 위해 __MobileNetV2__ 를 이용하여 __CNN__ (합성곱신경망 : Convolution Neural Network) 방식으로 모델을 학습시켰습니다.
 
