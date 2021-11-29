@@ -38,6 +38,8 @@ __딥러닝__ 을 통해 마스크 착용 및 미착용 모델을 학습시키�
 
 2. 연산량과 모델 사이즈를 줄여 빠르게 학습시키기 위해 __MobileNetV2__ 를 이용하여 __CNN(합성곱신경망 : Convolution Neural Network)__ 방식으로 모델을 학습시켰습니다.
 
+<img src="imgs/cnn.png" height="200" width="500"/>
+
 3. 학습된 인공지능을 이용하여 이미지 -> 동영상 -> 실시간 영상 순으로 테스트를 진행하였습니다.
 
 <img src="imgs/hwi.JPG" height="350" width="600"/>
