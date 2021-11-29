@@ -18,8 +18,6 @@
     Raspberry Pi기반의 마스크 착용 인식 출입 통제 시스템
 __딥러닝__ 을 통해 마스크 착용 및 미착용 모델을 학습시키고, 이를 이용해 라즈베리파이 __카메라 모듈__ 로 출입하는 사람들의 마스크 착용 여부를 판단하여 마스크 착용시에만 라즈베리파이에 연결된 __서보모터__ 가 작동하여 출입문을 열어주는 방식의 시스템입니다.
 
-<img src="imgs/rasp.png" height="400" width="600"/>
-
 <br/>
 
 ## ✈️ TO BE
@@ -42,11 +40,18 @@ __딥러닝__ 을 통해 마스크 착용 및 미착용 모델을 학습시키�
 
 <img src="imgs/hwi.JPG" height="350" width="600"/>
 
+<br/>
+
+## 📟 Raspberry Pi
+라즈베리파이4 Model B + 5MP OV5647 Mini 카메라 모듈 + 라즈베리파이 공식 7인치 터치스크린 + SG90 서보모터
+
+<img src="imgs/rasp.png" height="400" width="600"/>
+
 ## 🔧 Tech
 
 OS :  
 ```
-Raspberi Pi OS
+Raspbery Pi OS
 ```
 
 BE(Back-End) :
