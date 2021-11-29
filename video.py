@@ -8,11 +8,11 @@ import os
 facenet = cv2.dnn.readNet('models/deploy.prototxt', 'models/res10_300x300_ssd_iter_140000.caffemodel')
 model = load_model('models/mask_detector.model')
 
-cap = cv2.VideoCapture('imgs/01.mp4')
+cap = cv2.VideoCapture('imgs/1112.mp4')
 ret, img = cap.read()
 
 fourcc = cv2.VideoWriter_fourcc('m', 'p', '4', 'v')
-out = cv2.VideoWriter('output.mp4', fourcc, cap.get(cv2.CAP_PROP_FPS), (img.shape[1], img.shape[0]))
+out = cv2.VideoWriter('output_1112.mp4', fourcc, cap.get(cv2.CAP_PROP_FPS), (img.shape[1], img.shape[0]))
 
 while cap.isOpened():
     ret, img = cap.read()
