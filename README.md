@@ -52,7 +52,7 @@ __딥러닝__ 을 통해 마스크 착용 및 미착용 모델을 학습시키�
 <br/>
 
 ## 🖨 3d Printer
-AutoCAD를 이용하여 3d모델링을 진행하였습니다.
+AutoCAD를 이용하여 라즈베리가 담길 케이스 및 기둥의 3d모델링을 진행하였습니다.
 
 <img src="imgs/3d1.JPG" height="300" width="400"/> <img src="imgs/3d2.JPG" height="300" width="400"/>
 
