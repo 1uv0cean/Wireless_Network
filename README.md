@@ -40,7 +40,7 @@ __딥러닝__ 을 통해 마스크 착용 및 미착용 모델을 학습시키�
 
 3. 학습된 인공지능을 이용하여 이미지 -> 동영상 -> 실시간 영상 순으로 테스트를 진행하였습니다.
 
-<img src="imgs/hwi.JPG" height="400" width="600"/>
+<img src="imgs/hwi.JPG" height="350" width="600"/>
 
 ## 🔧 Tech
 
