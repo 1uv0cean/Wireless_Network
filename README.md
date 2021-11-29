@@ -27,7 +27,7 @@ __딥러닝__ 을 통해 마스크 착용 및 미착용 모델을 학습시키�
 
 현재 제작한 시제품으로 원가를 __150만원 이상__ 절감하였으며 3D프린터로 본체를 출력하여도 __100만원 이상__ 저렴하게 사용이 가능합니다.
 
-<img src="imgs/pic1.jpg" height="600" width="400"/>    <img src="imgs/pic2.jpg" height="600" width="400"/>
+<img src="imgs/pic1.jpg" height="400" width="250"/>    <img src="imgs/pic2.jpg" height="400" width="250"/>
 
 <br/>
 
@@ -45,7 +45,7 @@ __딥러닝__ 을 통해 마스크 착용 및 미착용 모델을 학습시키�
 ## 📟 Raspberry Pi
 라즈베리파이4 Model B + 5MP OV5647 Mini 카메라 모듈 + 라즈베리파이 공식 7인치 터치스크린 + SG90 서보모터
 
-<img src="imgs/pipi.png" height="350" width="600"/>
+<img src="imgs/pipi.JPG" height="350" width="600"/>
 
 라즈베리파이의 __5v, Gnd, 18번__ 핀에 서보모터를 연결하였습니다.
 
