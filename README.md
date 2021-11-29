@@ -94,10 +94,76 @@ AutoCAD를 이용하여 라즈베리파이가 담길 케이스 및 기둥의 3d�
     sudo apt-get install gcc-arm*   
     sudo apt-get install protobuf-compiler   
     sudo apt-get install python-dev python-numpy   
+    
+    #OpenCV 설치
+    cd ~
+    wget -O opencv.zip https://github.com/opencv/opencv/archive/4.1.2.zip
+    wget -O opencv_contrib.zip https://github.com/opencv/opencv_contrib/archive/4.1.2.zip
+    unzip opencv.zip
+    unzip opencv_contrib.zip
+    mv opencv-4.1.2 opencv
+    mv opencv_contrib-4.1.2 opencv_contrib
+    cd ~/opencv/
+    mkdir build
+    cd build
+    
+    #Build하기
+    cmake -D CMAKE_BUILD_TYPE=RELEASE \
+        -D CMAKE_INSTALL_PREFIX=/usr/local \
+        -D OPENCV_EXTRA_MODULES_PATH=~/opencv_contrib/modules \
+        -D ENABLE_NEON=ON \
+        -D ENABLE_VFPV3=ON \
+        -D WITH_OPENMP=ON \
+        -D BUILD_TIFF=ON \
+        -D WITH_FFMPEG=ON \
+        -D WITH_TBB=ON \
+        -D BUILD_TBB=ON \
+        -D BUILD_TESTS=OFF \
+        -D WITH_EIGEN=OFF \
+        -D WITH_GSTREAMER=OFF \
+        -D WITH_V4L=ON \
+        -D WITH_LIBV4L=ON \
+        -D WITH_VTK=OFF \
+        -D OPENCV_EXTRA_EXE_LINKER_FLAGS=-latomic \
+        -D OPENCV_ENABLE_NONFREE=ON \
+        -D INSTALL_C_EXAMPLES=OFF \
+        -D INSTALL_PYTHON_EXAMPLES=OFF \
+        -D BUILD_NEW_PYTHON_SUPPORT=ON \
+        -D BUILD_opencv_python3=TRUE \
+        -D OPENCV_GENERATE_PKGCONFIG=ON \
+        -D BUILD_EXAMPLES=OFF ..
+        
+    #Build를 위한 메모리 설정
+    sudo nano /etc/dphys-swapfile
+    Nano text editor진입 후 CONF_SWAPSIZE=100 -> CONF_SWAPSIZE=2048 로 변경
+    
+    #dphys-swapfile 재시작
+    sudo /etc/init.d/dphys-swapfile stop
+    sudo /etc/init.d/dphys-swapfile start
+    
+    #make
+    make -j4
+    
+    #Opencv 설치 마무리
+    sudo make install
+    sudo ldconfig
+    make clean
+    sudo apt-get updat
+    sudo nano /etc/dphys-swapfile
+    Nano text editor진입 후 CONF_SWAPSIZE=2048 -> CONF_SWAPSIZE=100 로 변경
+    sudo reboot
+    
+4. 본 프로젝트를 라즈베리파이에 clone해줍니다.
+    ```
+    git clone https://github.com/songhwee1/Wireless_Network.git
     ```
     
-    
- 
+5. 마스크 인식 프로그램을 실행시킵니다.
+    ```python
+    cd Wireless_Network
+    python3 webcam.py
+    ```
+<br/>
 
 ## 🔧 Tech
 
