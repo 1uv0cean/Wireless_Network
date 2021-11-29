@@ -51,5 +51,5 @@ Raspberi Pi OS
 
 BE(Back-End) :
 ```
-Python
+Python 3
 ```
