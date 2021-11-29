@@ -53,7 +53,7 @@ __딥러닝__ 을 통해 마스크 착용 및 미착용 모델을 학습시키�
 
 <img src="imgs/pipi.JPG" height="350" width="600"/>
 
-라즈베리파이의 __5v, Gnd, 18번__ 핀에 서보모터를 연결하였고, 터치스크린의 __모니터 케이블__ 및 __전원을__ 라즈베리파이와 연결하였습니다.
+라즈베리파이의 __5v, Gnd, 18번__ 핀에 __서보모터를__ 연결하였고, __카메라 모듈__ 및 터치스크린의 __모니터 케이블__ 및 __전원을__ 라즈베리파이와 연결하였습니다.
 
 <br/>
 
@@ -65,6 +65,38 @@ AutoCAD를 이용하여 라즈베리파이가 담길 케이스 및 기둥의 3d�
 <img src="imgs/3d3.JPG" height="300" width="400"/> <img src="imgs/3d4.JPG" height="300" width="400"/>
 
 <br/>
+
+## 🤷‍♂️ How to Use?
+1. 라즈베리파이에 모터 및 각종 모듈을 연결합니다.   
+
+2. 라즈베이파이를 최신상태로 만들어줍니다.   
+    sudo apt-get update && sudo apt-get upgrade   
+    
+3. 필요한 모듈들을 설치해줍니다.
+    #tensorflow 설치   
+    sudo pip3 install tensorflow   
+    
+    #imutils 설치   
+    sudo pip3 install imutils   
+    
+    #openCV설치를 위한 의존성 설치   
+    sudo apt-get install build-essential cmake git unzip pkg-config   
+    sudo apt-get install libjpeg-dev libpng-dev libtiff-dev   
+    sudo apt-get install libavcodec-dev libavformat-dev libswscale-dev   
+    sudo apt-get install libgtk2.0-dev libcanberra-gtk*   
+    sudo apt-get install libxvidcore-dev libx264-dev libgtk-3-dev   
+    sudo apt-get install python3-dev python3-numpy   
+    sudo apt-get install libtbb2 libtbb-dev libdc1394-22-dev   
+    sudo apt-get install libv4l-dev v4l-utils   
+    sudo apt-get install libjasper-dev libopenblas-dev libatlas-base-dev   
+    sudo apt-get install libblas-dev liblapack-dev gfortran   
+    sudo apt-get install gcc-arm*   
+    sudo apt-get install protobuf-compiler   
+    sudo apt-get install python-dev python-numpy   
+    
+    
+    
+ 
 
 ## 🔧 Tech
 
