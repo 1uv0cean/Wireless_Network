@@ -6,7 +6,7 @@
 
 ## 🍀 Team
 
-👩🏻‍💻 [박용](https://github.com/dlstk8863) : Software, Project Manager
+👩🏻‍💻 [박 용](https://github.com/dlstk8863) : Software, Project Manager
 
 👨🏻‍💻 [송 휘](https://github.com/songhwee1) : Machine Learning
 
