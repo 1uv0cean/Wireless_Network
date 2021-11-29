@@ -29,7 +29,7 @@
 
 현재 제작한 시제품으로 원가를 150만원이상 절감하였으며 3D프린터로 본체를 출력하여도 100만원 이상 저렴하게 사용이 가능합니다.
 
-<img src="imgs/pic1.png" height="600" width="400"/>    <img src="imgs/pic2.png" height="600" width="400"/>
+<img src="imgs/pic1.jpg" height="600" width="400"/>    <img src="imgs/pic2.jpg" height="600" width="400"/>
 
 <br/>
 
