@@ -86,12 +86,12 @@ AutoCAD를 이용하여 라즈베리파이가 담길 케이스 및 기둥의 3d�
 1. 라즈베리파이에 모터 및 각종 모듈을 연결합니다.   
 
 2. 라즈베이파이 업데이트를 진행합니다. 
-    ```python 
+    ```
     sudo apt-get update && sudo apt-get upgrade   
     ```
     
 3. 필요한 모듈들을 설치해줍니다.
-    ```python
+    ```
     #Tensorflow 설치   
     sudo pip3 install tensorflow   
     
@@ -177,7 +177,7 @@ AutoCAD를 이용하여 라즈베리파이가 담길 케이스 및 기둥의 3d�
     ```
     
 5. 마스크 인식 프로그램을 실행시킵니다.
-    ```python
+    ```
     cd Wireless_Network
     python3 webcam.py
     ```
