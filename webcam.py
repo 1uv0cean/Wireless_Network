@@ -131,7 +131,7 @@ while True:
         color = (0, 255, 0) if label == "Mask" else (0, 0, 255)
         
         if mask > withoutMask:
-                exec(open("motor.py").read())
+                exec(open("servo.py").read())
 
         # 정확도
         label = "{}: {:.2f}%".format(label, max(mask, withoutMask) * 100)
