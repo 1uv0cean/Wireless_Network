@@ -85,8 +85,10 @@ AutoCAD를 이용하여 라즈베리파이가 담길 케이스 및 기둥의 3d�
 ## 🤷‍♂️ How to Use?
 1. 라즈베리파이에 모터 및 각종 모듈을 연결합니다.   
 
-2. 라즈베이파이 업데이트를 진행합니다.  
+2. 라즈베이파이 업데이트를 진행합니다. 
+    ```python 
     sudo apt-get update && sudo apt-get upgrade   
+    ```
     
 3. 필요한 모듈들을 설치해줍니다.
     ```python
