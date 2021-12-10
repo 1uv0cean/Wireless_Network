@@ -1,4 +1,3 @@
-# Mask Detection Access Control
 ## 인공지능과 라즈베리 파이를 활용한 마스크 착용 인식 출입 통제 시스템
 > 시연영상: https://youtu.be/pP1Z1lClY_c
 
