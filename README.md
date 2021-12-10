@@ -59,7 +59,7 @@ Python 3
 
 <img src="imgs/hwi.JPG" height="350" width="600"/>
 
-<img src="liveGif.gif" height="400" width="600"/>
+<img src="imgs/liveGif.gif" height="400" width="600"/>
 
 <br/>
 
