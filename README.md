@@ -52,7 +52,7 @@ Python 3
 
 2. 연산량과 모델 사이즈를 줄여 빠르게 학습시키기 위해 __MobileNetV2__ 를 이용하여 __CNN(합성곱신경망 : Convolution Neural Network)__ 방식으로 모델을 학습시켰습니다.
 
-<img src="imgs/train_loss.png" height="200" width="500"/>
+<img src="imgs/train_loss.png" height="300" width="500"/>
 
    -사진과 같이 매우 높은 정확도와 낮은 손실도를 얻었음을 알 수 있습니다.     
   
