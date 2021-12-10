@@ -168,7 +168,7 @@ AutoCAD를 이용하여 라즈베리파이가 담길 케이스 및 기둥의 3d�
     make clean
     sudo apt-get updat
     sudo nano /etc/dphys-swapfile
-    Nano text editor진입 후 CONF_SWAPSIZE=2048 -> CONF_SWAPSIZE=100 로 변경
+    #Nano text editor진입 후 CONF_SWAPSIZE=2048 -> CONF_SWAPSIZE=100 로 변경
     sudo reboot
     
 4. 본 프로젝트를 라즈베리파이에 clone해줍니다.
